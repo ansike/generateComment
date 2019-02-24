@@ -1,0 +1,27 @@
+{
+  "name": "generatecomment",
+  "version": "1.0.0",
+  "description": "add directory comment",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "comment":"node ./lib/comment.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ansike/generateComment.git"
+  },
+  "keywords": [
+    "directory",
+    "comment"
+  ],
+  "author": "ansike",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ansike/generateComment/issues"
+  },
+  "homepage": "https://github.com/ansike/generateComment#readme"
+}
