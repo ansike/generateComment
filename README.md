@@ -1,5 +1,5 @@
 # generateComment
-根据git记录生成文件的头部信息
+根据git记录生成文件的头部信息（前提是该项目有git仓库）
 
 ``` javascript
 /*
