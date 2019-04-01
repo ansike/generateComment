@@ -17,13 +17,15 @@ npm i generatecomment
 ### 第二步 创建脚本文件
 在项目根目录下创建comment.js文件，复制以下内容到文件中
 ``` javascript
-require('generatecomment')
+const path = require('path');
+const comment = require("../lib/comment");
+comment({
+  filePath: path.resolve(__dirname, "../test/"),
+  fileSuffix: "js"
+})
 ```
 ### 第三步 运行脚本文件
 ``` javascript
 node comment.js
 ```
-### 注意
->>需要处理的路径和文件类型需要运行脚本的时候指定
->>注意书写方式`路径#文件类型`！！！
 
