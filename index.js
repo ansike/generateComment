@@ -1,1 +1,3 @@
-require('./lib/comment')();
+const comment = require('./lib/comment');
+
+module.exports = comment;

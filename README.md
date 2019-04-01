@@ -18,9 +18,10 @@ npm i generatecomment
 在项目根目录下创建comment.js文件，复制以下内容到文件中
 ``` javascript
 const path = require('path');
-const comment = require("../lib/comment");
+const comment = require("generatecomment");
 comment({
-  filePath: path.resolve(__dirname, "../test/"),
+  // 表示当前目录下test文件夹下的所有的js文件添加注释
+  filePath: path.resolve(__dirname, "./test/"),
   fileSuffix: "js"
 })
 ```

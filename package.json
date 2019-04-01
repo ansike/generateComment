@@ -1,6 +1,6 @@
 {
   "name": "generatecomment",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "add directory comment",
   "main": "index.js",
   "directories": {
